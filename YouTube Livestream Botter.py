@@ -22,7 +22,7 @@ else:
 
 token = input("ID?\n")
 url= "https://m.youtube.com/watch?v=" + token
-url2 = "https://s.youtube.com/api/stats/watchtime?ns=yt&el=detailpage&cpn=AiWtf2fjIwVS2MeQ&docid=" + token + "&ver=2&cmt=7926.045&ei=igGSXce3IM2NgAfasp-ABg&fmt=133&fs=0&rt=1096.007&of=L_224b5BokWsQ5UWgAws_w&euri&lact=2837&live=dvr&cl=271684942&state=playing&vm=CAEQABgEKhhJc0gwZ2w0QmFfbTBWSXlWNm9ITmRRPT0&volume=100&c=MWEB&cver=2.20190928.07.00&cplayer=UNIPLAYER&cbrand=apple&cbr=Safari%20Mobile&cbrver=12.1.15E148&cmodel=iphone&cos=iPhone&cosver=12_2&cplatform%20=MOBILE&delay=5&hl=ru_RU&cr=DE&rtn=1396&afmt=140&lio=1556394045.182&idpj=&ldpj=&rti=1096&muted=0&st=7626.045&et=7926.045 "
+url2 = "https://s.youtube.com/api/stats/watchtime?ns=yt&el=detailpage&cpn=Syr16u8qwHnPkVqI&docid=" + token + "&ver=2&cmt=2094&ei=1EJtXou2C6eoxN8PpqqNqAg&fmt=133&fs=0&rt=1769&of=rkW8h_g-Pta1U6EIuWGdvw&euri&lact=7275&live=dvr&cl=300532980&state=playing&vm=CAEQABgEKhhJc0gwZ2w0QmFfbTBWSXlWNm9ITmRRPT06MkFOcHN5N0FhUWlHOHl5QkQySUF1OGt6amlZYjZwN3hzNzRXV3hhTEE4NDZVU1h2TTV3&volume=100&c=MWEB&cver=2.20200313.03.00&cplayer=UNIPLAYER&cbrand=apple&cbr=Safari%20Mobile&cbrver=12.1.15E148&cmodel=iphone&cos=iPhone&cosver=12_2&cplatform=MOBILE&delay=5&hl=ru&cr=IQ&rtn=2069&afmt=140&lio=1556394045.182&idpj=&ldpj=&rti=1769&muted=0&st=2094&et=2394"
 class main(object):
     def __init__(self):
         self.combolist = Queue()
